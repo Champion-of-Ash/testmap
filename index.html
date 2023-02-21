@@ -2,7 +2,14 @@
     <html lang="en">
 
       <head>
-            
+        
+    <link href="https://api.mapbox.com/mapbox-assembly/mbx/v0.28.2/assembly.min.css" rel="stylesheet" />
+    <script src="https://api.mapbox.com/mapbox-assembly/mbx/v0.28.2/assembly.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.12.0/mapbox-gl.css" rel="stylesheet" />
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.12.0/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.4.1/mapbox-gl-geocoder.css" rel="stylesheet" />
+    <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.4.1/mapbox-gl-geocoder.min.js"></script>
+    
     <meta charset="utf-8" />
     <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
     <meta http-equiv="Content-Security-Policy" content="object-src 'none'; child-src 'self' blob:; frame-src 'self' blob:; connect-src blob: https://api.mapbox.com https://*.tiles.mapbox.com https://events.mapbox.com; img-src 'self' blob: data: https://static-assets.mapbox.com/ https://api.mapbox.com https://*.tiles.mapbox.com; script-src 'self' 'unsafe-eval' 'unsafe-inline' blob: https://api.mapbox.com https://cdn.ravenjs.com; style-src https://api.mapbox.com 'unsafe-inline'" />
@@ -17,8 +24,8 @@
     <meta property="og:type" content="website" />
     <meta property="og:image:width" content="435" />
     <meta property="og:image:height" content="375" />
-          
-              <!-- Favicons and friends -->
+
+    <!-- Favicons and friends -->
     <link rel="apple-touch-icon" sizes="180x180" href="https://static-assets.mapbox.com/branding/favicon/v1/apple-touch-icon.png?v=gAd4JjrGWl">
     <link rel="icon" type="image/png" sizes="32x32" href="https://static-assets.mapbox.com/branding/favicon/v1/favicon-32x32.png?v=gAd4JjrGWl">
     <link rel="icon" type="image/png" sizes="16x16" href="https://static-assets.mapbox.com/branding/favicon/v1/favicon-16x16.png?v=gAd4JjrGWl">
@@ -42,7 +49,6 @@
       name="google-site-verification"
       content=undefined
     />
-          
     <title>testMap | Mapbox</title>
         <style>
         /* Mapbox GL */
@@ -134,10 +140,10 @@
       <div class="flex-child flex-child--no-shrink none block-mm">
     <div class="flex-parent flex-parent--center-cross align-r">
       <p class="txt-s txt-m-mxl mr12 flex-child">
-        Copy this style to your account
+        Design your own maps with Mapbox Studio
       </p>
-      <a class="btn flex-child flex-child--no-shrink" href="https://studio.mapbox.com/styles/add-style/parp/cleeef9w8005601o3croou552/">
-        Copy
+      <a class="btn flex-child flex-child--no-shrink" href="https://account.mapbox.com/auth/signin/?route-to=https://studio.mapbox.com">
+        Sign up
       </a>
     </div>
   </div>
@@ -156,7 +162,7 @@
           APIBaseURL: "https://api.mapbox.com",
           fallback: false,
           fresh: true,
-          title: "copy",
+          title: "view",
           zoomwheel: true
         });
         </script>
